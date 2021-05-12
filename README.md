@@ -1,0 +1,2 @@
+# arita-fresh-fish-shop
+ 
