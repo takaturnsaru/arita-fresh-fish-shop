@@ -1,18 +1,18 @@
 body{
   font-family: "YuMincho +36p Kana","游明朝体+36ポかな";
-
+  width: 100%;
+  height: 100vh;
 }
 
 header{
   display: fixed;
   width: 100%;
   height: 100px;
-  padding-top:20px ;
+  margin:20px 0 0;
 }
 
 a{
   text-decoration: none;
-
 }
 
 .header-container{
@@ -37,8 +37,181 @@ nav ul{
 
 nav li{
   list-style: none;
+}
+
+.main-image-container{
+  height: 770px;
+}
+
+.main-content{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+
+.main-image1{
+  position: absolute;
+  z-index: 60;
+}
+.main-image2{
+  position: absolute;
+  z-index: 50;
+}
+.main-image3{
+  position: absolute;
+  z-index: 40;
+}
+.main-image4{
+  position: absolute;
+  z-index: 30;
+}
+.main-image5{
+  position: absolute;
+  z-index: 20;
+}
+.main-image6{
+  position: absolute;
+  z-index: 10;
+}
+
+
+.top {
+  width: 1300px;
+  height: 670px;
 
 }
+
+.history-container{
+  margin-top: 250px;
+}
+
+.history-letter{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  writing-mode: vertical-rl;
+  text-align: left;
+  justify-content: center;
+  padding: 80px 150px 78px;
+}
+
+.history-letter h1{
+  line-height: 50px;
+  margin-left: 50px;
+  font-size:24px;
+  
+}
+
+.history-letter p{
+  line-height: 3em;
+  font-size: 18px;
+  letter-spacing: 0.7em;
+
+}
+
+.history-letter span{
+  text-combine-upright: all;
+}
+
+.news-container{
+  margin-top: 400px;
+  height: 500px;
+
+}
+
+.news-heading{
+  text-align: center;
+
+}
+
+.news-heading h1{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.news-contents{
+  width: 1000px;
+  margin: 100px auto;
+  display: flex;
+}
+
+.news-content{
+width: 25%;
+height: 300px;
+margin: auto;
+}
+
+.news-content-image {
+  text-align: center;
+}
+
+.news-content h2{
+  font-size: 15px;
+  width: 90%;
+  margin: auto;
+
+}
+
+
+
+.news-content-image img{
+  width: 80%;
+  height: auto;
+}
+
+.news-content-letter {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.news-content-letter h3{
+  font-size: 15px;
+}
+
+
+.news-content-letter p{
+  width: 100%;
+  height: 100px;
+  overflow-wrap:normal ;
+}
+
+.access-container{
+  height: 700px;
+  margin-top: 200px;
+}
+
+.access-heading h1{
+  text-align: center;
+}
+
+.access-address{
+  width: 1000px;
+  height: 300px;
+  margin: 100px auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.access-address p{
+  font-size: 15px;
+  letter-spacing: 0.7em;
+
+}
+
+.access-map iframe{
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+
+}
+
+.access-way{
+  width: 1000px;
+  margin: auto;
+
+}
+
 
 
 
