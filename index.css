@@ -9,6 +9,7 @@ header{
   width: 100%;
   height: 100px;
   margin:20px 0 0;
+  position: absolute;
 }
 
 a{
@@ -17,9 +18,12 @@ a{
 
 .header-container{
   width: 1300px;
+  height: 100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 .home-logo img{
@@ -30,56 +34,42 @@ a{
 nav ul{
   display: flex;
   width: 870px;
-  height: 100px;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
 }
 
 nav li{
   list-style: none;
+  margin-bottom: -5px;
+}
+
+.header-container a{
+  color: white;
+}
+
+.menu{
+  width: 20px;
+  height: auto;
+  position: fixed;
 }
 
 .main-image-container{
   height: 770px;
 }
 
-.main-content{
-  width: 1300px;
-  margin: 0 auto;
+.home-message{
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  
 }
 
-
-.main-image1{
-  position: absolute;
-  z-index: 60;
-}
-.main-image2{
-  position: absolute;
-  z-index: 50;
-}
-.main-image3{
-  position: absolute;
-  z-index: 40;
-}
-.main-image4{
-  position: absolute;
-  z-index: 30;
-}
-.main-image5{
-  position: absolute;
-  z-index: 20;
-}
-.main-image6{
-  position: absolute;
-  z-index: 10;
+.home-images{
+  float: right;
 }
 
-
-.top {
-  width: 1300px;
-  height: 670px;
-
-}
 
 .history-container{
   margin-top: 250px;
