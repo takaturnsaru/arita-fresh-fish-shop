@@ -74,16 +74,28 @@ header{
 
 }
 
-.header-restaurant{
+.header-restaurant a{
   margin-left: 760px;
   background-color: red;
   color: white;
-  padding: 15px 15px;
+  padding: 20px 15px;
   border-radius: 20px;
+}
+
+.header-restaurant :hover{
+  background-color: rgb(255, 0, 0,0.7);
 }
 
 .header-menu{
   margin:8px 0 0 90px;
+}
+
+.header-menu :hover{
+  height: 40px;
+  width: auto;
+  transition: 0.2s;
+  cursor: pointer;
+
 }
 
 .header-menu img{
