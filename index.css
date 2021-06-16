@@ -11,6 +11,13 @@ li{
   list-style: none;
 }
 
+h1{
+  font-size: 60px;
+  color: rgb(0, 0, 173);
+
+}
+
+/*menu*/
 .top-menu-wrapper{
   display: none;
 }
@@ -60,6 +67,11 @@ nav li :hover{
   transition: 0.3s;
 }
 
+/*menu*/
+
+/*header*/
+
+
 header{
   height: 100px;
   width: 100%;
@@ -101,4 +113,83 @@ header{
 .header-menu img{
   height: 35px;
   width: auto;
+}
+
+/*header*/
+
+/*top-image*/
+
+.top-image{
+  width: 100%;
+  text-align: center;
+
+}
+.top-image img{
+  width: 95%;
+  height: auto;
+  border-radius: 30px;
+}
+
+/*top-image*/
+
+/*news*/
+
+.news-container{
+  height: 650px;
+  width: 80%;
+  margin: 300px auto;
+}
+
+.news-heading {
+  text-align: center;
+}
+
+.news-contents{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 50px 0;
+}
+
+.news{
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.news-image {
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.news-image img{
+  width: 95%;
+  height: 150px;
+}
+
+.news-date{
+  margin: 20px;
+  letter-spacing: 0.2em;
+
+}
+
+.news-content{
+  width: 95%;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+}
+
+.news-list-move{
+  font-size: 35px;
+  float: right;
+}
+
+.news-list-move a{
+  color: black;
+}
+
+.news-list-move :hover{
+  cursor: pointer;
+  color: rgb(0, 0, 0,0.6);
+  transition: 0.3s;
+
 }
