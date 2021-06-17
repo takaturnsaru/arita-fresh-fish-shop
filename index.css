@@ -415,7 +415,6 @@ letter-spacing: 0.2em;
 /*footer*/
 
 .footer-container{
-  border: 1px solid black;
   width: 100%;
   height: 300px;
   text-align: center;
@@ -427,9 +426,12 @@ letter-spacing: 0.2em;
 }
 
 .footer-nav ul{
-  border: 1px solid black;
   width: 40%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.copyright{
+  margin: 50px;
 }
