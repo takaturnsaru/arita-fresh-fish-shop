@@ -342,6 +342,19 @@ header{
 
 /*shop-infomation*/
 
+/*animation-image*/
+
+.fish-images{
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+}
+
+.fish-images img{
+  height: 400px;
+  width: auto;
+}
+
 /*infomation*/
 
 .infomation-container{
