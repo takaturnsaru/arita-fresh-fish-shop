@@ -192,6 +192,14 @@ header{
   margin: 300px  auto;
 }
 
+.shop-list-heading{
+text-align: center;
+}
+
+.main-shop{
+  margin-top: 200px;
+}
+
 
 .shop-overview{
   margin-top: 100px;
@@ -209,6 +217,52 @@ header{
   border:1px solid black;
 }
 
+.street-markets{
+  border: 1px solid black;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.street-market-1{
+  border: 1px solid black;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.street-market-2{
+  border: 1px solid black;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
+
+}
+
+.street-market-overview{
+  border: 1px solid black;
+  width: 300px;
+}
+
+.opening-info{
+  margin:20px 0;
+}
+
+.street-market-image img{
+  border: 1px solid black;
+
+  width: 450px;
+  height: auto;
+}
 /*shop-infomation*/
 
 
