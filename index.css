@@ -87,7 +87,7 @@ header{
 }
 
 .header-restaurant a{
-  margin-left: 760px;
+  margin-left: 750px;
   background-color: red;
   color: white;
   padding: 20px 15px;
@@ -99,7 +99,7 @@ header{
 }
 
 .header-menu{
-  margin:8px 0 0 90px;
+  margin:8px 0 0 70px;
 }
 
 .header-menu :hover{
