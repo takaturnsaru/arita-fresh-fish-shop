@@ -83,14 +83,14 @@ header{
   margin: 0 auto;
   display: flex;
   align-items: center;
+  position: relative;
 
 }
 
 .header-logo{
   position: absolute;
-  width: calc(100% - 100px);
-  border: 1px solid black;
   text-align: center;
+  left: 43%;
 }
 
 .header-logo img{
@@ -132,21 +132,25 @@ header{
 
 /*work-discription*/
 
+
+.work-main-move{
+  width: 100%;
+  text-align: center;
+}
+
+.work-main-move img{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+}
+
 .work-container{
   margin-top: 300px;
   width: 100%;
-  height: 1700px;
 }
 
-.work-image{
-  text-align: right;
-}
-
-.work-image img{
-  width: 95%;
-  height: 600px;
-  border-radius: 30px;
-}
 
 .work-title{
   text-align: center;
@@ -189,7 +193,8 @@ header{
 
 .shop-list{
   width: 65%;
-  margin: 300px  auto;
+  margin: 0 auto;
+  margin-top: 300px;
 }
 
 .shop-list-heading{
@@ -218,7 +223,6 @@ text-align: center;
 }
 
 .street-markets{
-  border: 1px solid black;
   line-height: 2em;
   letter-spacing: 0.1em;
   margin-top: 200px;
@@ -227,7 +231,6 @@ text-align: center;
 }
 
 .street-market-1{
-  border: 1px solid black;
   height: 350px;
   width: 100%;
   display: flex;
@@ -237,7 +240,6 @@ text-align: center;
 }
 
 .street-market-2{
-  border: 1px solid black;
   height: 350px;
   width: 100%;
   display: flex;
@@ -249,7 +251,6 @@ text-align: center;
 }
 
 .street-market-overview{
-  border: 1px solid black;
   width: 300px;
 }
 
@@ -259,14 +260,22 @@ text-align: center;
 
 .street-market-image img{
   border: 1px solid black;
-
+  border-radius: 30px;
   width: 450px;
   height: auto;
+}
+
+.street-market-map img{
+  margin-top: 100px;
+  width: 1000px;
+  height: auto;
+  margin-bottom: 150px;
 }
 /*shop-infomation*/
 
 
 /*footer*/
+
 
 .footer-container{
   width: 100%;
