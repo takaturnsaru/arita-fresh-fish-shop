@@ -342,6 +342,49 @@ header{
 
 /*shop-infomation*/
 
+/*animation-image*/
+
+.fish-imagess{
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+}
+.fish-images{
+  display: flex;
+}
+
+.fish-imagess img{
+  width: 400px;
+  height: 500px;
+}
+
+.fish-images img:first-child{
+  animation: slide1 8s -2s linear infinite;
+}
+
+.fish-images img:last-child{
+  animation: slide2 8s  linear infinite;
+}
+
+
+@keyframes slide1 {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-500%);
+  }
+}
+
 /*infomation*/
 
 .infomation-container{
