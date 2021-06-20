@@ -1,0 +1,53 @@
+.contact-container{
+  width: 75%;
+  height: auto;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.contact-message{
+  margin: 50px;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+}
+
+.contact-form{
+  letter-spacing: 0.2em;
+  line-height: 3em;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#name,#e-mail,#contact{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#name,#e-mail{
+  width: 100%;
+  height: 40px;
+}
+
+#contact{
+  width: 100%;
+  height: 300px;
+}
+
+label{
+  font-size: 20px;
+  line-height: 1.8em;
+  letter-spacing: 0.2em;
+}
+
+#submit{
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  letter-spacing: 0.5em;
+  width: 300px;
+  font-size: 25px;
+}
