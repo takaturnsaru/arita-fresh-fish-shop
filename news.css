@@ -1,0 +1,53 @@
+.news{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.news-heading {
+  text-align: center;
+  margin: 200px 0;
+}
+
+.news-contents{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 100px;
+  grid-template-rows: 300px 300px 300px ;
+}
+
+
+.news-image img{
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 90%;
+  height: auto;
+}
+
+.news-date{
+  margin: 10px 0;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+
+}
+
+.news-info{
+  height: auto;
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+
+}
+
+.page-move{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top:90px;
+}
+
+footer{
+  margin-top: 200px;
+}
