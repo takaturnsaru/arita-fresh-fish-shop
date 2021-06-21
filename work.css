@@ -30,17 +30,12 @@ h1{
   background-color: rgb(190, 226, 255);
 }
 
-.menu-header{
-  display: flex;
-  height: 100px;
-  width: calc(100% - 100px);
-  margin: 0 auto;
-  align-items: center;
-}
-
 .menu-logo{
   height: 100px;
-  margin-left: calc(50% - 88px);
+  width: 100%;
+  text-align: center;
+  position: absolute;
+
 }
 
 .menu-logo img{
@@ -48,28 +43,24 @@ h1{
   width: auto;
 }
 
-.close-btn{
-  margin: 10px 35px 0 95.5%;
-  
-}
-
-.close-btn img{
-  height: 35px;
-  
-}
-
-.close-btn img:hover{
+.fa {
+  height: 20px;
+  width: auto;
+  padding: 15px 25px;
+  float: right;
   cursor: pointer;
-  height: 40px;
-  transition: 0.2s;
+}
+
+.fa :hover{
+  color: lightgrey;
 }
 
 nav{
   color: rgb(24, 46, 145);
   letter-spacing: 0.2em;
   line-height: 1.6em;
-  padding: 40px 0 0 100px;
-  font-size: 90px;
+  padding: 130px;
+  font-size: 70px;
 }
 
 nav li :hover{
@@ -93,14 +84,14 @@ header{
   margin: 0 auto;
   display: flex;
   align-items: center;
+  position: relative;
 
 }
 
 .header-logo{
   position: absolute;
   text-align: center;
-  top: 4px;
-  left: calc(50% - 88px);
+  left: 43%;
 }
 
 .header-logo img{
@@ -122,8 +113,7 @@ header{
 }
 
 .header-menu{
-  margin:-33px 0 0 70px;
-  position: relative;
+  margin:8px 0 0 90px;
 }
 
 .header-menu :hover{
@@ -135,7 +125,6 @@ header{
 }
 
 .header-menu img{
-  position: fixed;
   height: 35px;
   width: auto;
 }
