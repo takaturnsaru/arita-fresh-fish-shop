@@ -7,7 +7,8 @@
 
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link href="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/index.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- css -->
   </head>
@@ -15,12 +16,14 @@
   <body>
     <div class="top-menu-wrapper" id = "top-menu">
       <div class="menu">
-        <div class="menu-logo">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png">
-        </div>
-        <div>
-          <i class="fa fa-2x fa-times" id = "close-menu"></i>
-        </div>
+          <div class="menu-header">
+          <div class="menu-logo">
+            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png">
+          </div>
+          <div class="close-btn" id="close-menu">
+            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/close-mark.png">
+          </div>
+      </div>
         <nav>
           <ul>
             <li>
@@ -320,7 +323,7 @@
     </footer>
 
 
-
+    <script src = "menu.js"></script>
   </body>
 
 </html>
