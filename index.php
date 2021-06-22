@@ -2,12 +2,12 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>有田鮮魚</title>
+    <title><?php bloginfo("name"); ?></title>
     <meta name="discription" content="昭和35年創業　新潟市北区の町のお魚屋さん">
 
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link href="index.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/index.css" rel="stylesheet">
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- css -->
@@ -18,10 +18,10 @@
       <div class="menu">
           <div class="menu-header">
           <div class="menu-logo">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png">
           </div>
           <div class="close-btn" id="close-menu">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/close-mark.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
           </div>
       </div>
         <nav>
@@ -49,13 +49,13 @@
     <header>
       <div class="header-container">
         <div class="header-heading">
-          <p>新潟市北区島見町の小さなお魚屋さん</p>
+          <p><?php echo bloginfo("description"); ?></p>
         </div>
         <div class="header-restaurant">
         <a  href="restaurant.html">飲食店の方はこちら</a>
       </div>
         <div class="header-menu">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/menu-logo.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">
         </div>
       </div>
     </header>
@@ -63,7 +63,7 @@
     <main>
       <section>
         <div class="top-image">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/index-main-2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/index-main-2.png">
         </div>
         <div class="news-container">
           <div class="news-heading">
@@ -72,7 +72,7 @@
           <div class="news-contents">
             <div class="news">
               <div class="news-image">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="news-date">
                 <p>0000年00月00日</p>
@@ -83,7 +83,7 @@
             </div>
             <div class="news">
               <div class="news-image">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="news-date">
                 <p>0000年00月00日</p>
@@ -94,7 +94,7 @@
             </div>
             <div class="news">
               <div class="news-image">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="news-date">
                 <p>0000年00月00日</p>
@@ -105,7 +105,7 @@
             </div>
             <div class="news">
               <div class="news-image">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="news-date">
                 <p>0000年00月00日</p>
@@ -124,7 +124,7 @@
       <section>
         <div class="about-container">
           <div class="about-image">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-imate-shop.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-imate-shop.jpg">
           </div>
           <div class="about-discription">
             <div class="about-heading">
@@ -143,7 +143,7 @@
       <section>
         <div class="work-container">
           <div class="work-image">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/works-image.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/works-image.png">
           </div>
           <div class="work-heading">
             <h1>work</h1>
@@ -154,7 +154,7 @@
           <div class="commitments">
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>移動型鮮魚店</h3>
@@ -167,7 +167,7 @@
             </div>
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>対面型販売店</h3>
@@ -180,7 +180,7 @@
             </div>
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>こだわり抜いた新鮮な魚</h3>
@@ -202,36 +202,36 @@
         <div class="fish-imagess">
           <div class="fish-images">
             <div class="fish-image1">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-1.jpg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-1.jpg">
             </div>
             <div class="fish-image2">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-2.jpg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-2.jpg">
             </div>
             <div class="fish-image3">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-3.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-3.jpeg">
             </div>
             <div class="fish-image4">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image5.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image5.jpeg">
             </div>
             <div class="fish-image5">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image6.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image6.jpeg">
             </div>
           </div>
           <div class="fish-images">
             <div class="fish-image1">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-1.jpg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-1.jpg">
             </div>
             <div class="fish-image2">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-2.jpg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-2.jpg">
             </div>
             <div class="fish-image3">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image-3.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image-3.jpeg">
             </div>
             <div class="fish-image4">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image5.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image5.jpeg">
             </div>
             <div class="fish-image5">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/main-image6.jpeg">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-image6.jpeg">
             </div>
           </div>
         </div>
@@ -289,7 +289,7 @@
                   <p>instagramでも情報を発信しております。</p>
                 </div>
                 <div class="instagram-btn">
-                  <a href="https://www.instagram.com/arita_sengyo/?hl=ja"><img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/ico-instagram.svg"></a>
+                  <a href="https://www.instagram.com/arita_sengyo/?hl=ja"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/ico-instagram.svg"></a>
                 </div>
               </div>
             </div>
@@ -301,7 +301,7 @@
     <footer>
       <div class="footer-container">
         <div class="footer-logo">
-          <a href="index.html"><img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png"></a>
+          <a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png"></a>
         </div>
         <div class="footer-nav">
           <ul>
