@@ -133,7 +133,7 @@
             </div>
           </div>
           <div class="work-list-move">
-            <a href="work.html">もっと詳しく　⇨</a>
+            <a href="<?php echo get_template_directory_uri(); ?>/work.php">もっと詳しく　⇨</a>
           </div>
         </div>
       </section>
