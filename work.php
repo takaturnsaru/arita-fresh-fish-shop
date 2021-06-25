@@ -1,8 +1,9 @@
+<?php get_header("page"); ?>
 
     <main>
       <section>
         <div class="work-main-move">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
         </div>
       </section>
 
@@ -14,7 +15,7 @@
           <div class="commitments">
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>移動型鮮魚店</h3>
@@ -27,7 +28,7 @@
             </div>
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>対面型販売店</h3>
@@ -40,7 +41,7 @@
             </div>
             <div class="commitment">
               <div class="commitment-logo">
-                <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
               </div>
               <div class="commitment-heading">
                 <h3>こだわり抜いた新鮮な魚</h3>
@@ -76,7 +77,7 @@
                   </div>
                 </div>
                 <div class="main-shop-image">
-                  <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
                 </div>
               </div>
             </div>
@@ -95,7 +96,7 @@
                   </div>
                 </div>
                 <div class="street-market-image">
-                  <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
                 </div>
               </div>
               <div class="street-market-2">
@@ -112,7 +113,7 @@
                   </div>
                 </div>
                 <div class="street-market-image">
-                  <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
                 </div>
               </div>
               <div class="street-market-1">
@@ -129,7 +130,7 @@
                   </div>
                 </div>
                 <div class="street-market-image">
-                  <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
                 </div>
               </div>
               <div class="street-market-2">
@@ -146,47 +147,16 @@
                   </div>
                 </div>
                 <div class="street-market-image">
-                  <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
                 </div>
               </div>
             </div>
             <div class="street-market-map">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/niigata-city.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/niigata-city.png">
             </div>
           </div>
         </section>
       </div>
     </main>
 
-    <footer>
-      <div class="footer-container">
-        <div class="footer-logo">
-          <a href="index.html"><img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png"></a>
-        </div>
-        <div class="footer-nav">
-          <ul>
-            <li>
-              <a href="news.html">News</a>
-            </li>
-            <li>
-              <a href="work.html">Work</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-            <li>
-              <a href="restaurant.html">飲食店の方はこちら</a>
-            </li>
-          </ul>
-        </div>
-        <div class="copyright">
-          <p>Copyright©︎arita sengyo</p>
-        </div>
-      </div>
-    </footer>  
-    
-    <script src = "menu.js"></script>
-
-  </body>
-  
-</html>
+<?php get_footer(); ?>
