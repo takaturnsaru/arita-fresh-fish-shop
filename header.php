@@ -2,7 +2,6 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title><?php bloginfo("name"); ?></title>
     <meta name="discription" content="昭和35年創業　新潟市北区の町のお魚屋さん">
 
     <!-- css -->
