@@ -36,6 +36,9 @@
               <?php endwhile; ?>
             <?php endif; ?>
           </div>
+          <div class="news-list-move">
+            <a href="page-news.php">News一覧へ　⇨</a> 
+          </div>
       </section>
 
       <section>
@@ -110,7 +113,7 @@
             </div>
           </div>
           <div class="work-list-move">
-            <a href="<?php echo get_template_directory_uri(); ?>/work.php">もっと詳しく　⇨</a>
+            <a href="work.php">もっと詳しく　⇨</a>
           </div>
         </div>
       </section>
@@ -193,7 +196,7 @@
                   <p>お問い合わせフォームはこちら</p>
                 </div>
                 <div class="contact-btn">
-                  <a href="contact.html">お問い合わせフォームへ</a>
+                  <a href="page-contact.php">お問い合わせフォームへ</a>
                 </div>
               </div>
             </div>
