@@ -2,7 +2,6 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title><?php bloginfo("name"); ?></title>
     <meta name="discription" content="昭和35年創業　新潟市北区の町のお魚屋さん">
 
     <!-- css -->
@@ -24,7 +23,7 @@
         <div class="menu">
             <div class="menu-header">
             <div class="close-btn" id="close-menu">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/close-mark.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
             </div>
             <nav>
               <ul>
@@ -54,13 +53,13 @@
             <p>新潟市北区島見町の小さなお魚屋さん</p>
           </div>
           <div class="header-logo">
-            <a href="index.html"><img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png"></a>
+            <a href="front-page.php"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png"></a>
           </div>
           <div class="header-restaurant">
             <a href="restaurant.html">飲食店の方はこちら</a>
           </div>
           <div class="header-menu">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/menu-logo.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">
           </div>
         </div>
       </header>
