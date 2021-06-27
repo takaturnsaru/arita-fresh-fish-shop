@@ -6,16 +6,16 @@
         <div class="footer-nav">
           <ul>
             <li>
-              <a href="news.html">News</a>
+              <a href="news.php">News</a>
             </li>
             <li>
-              <a href="work.html">Work</a>
+              <a href="work.php">Work</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="contact.php">Contact</a>
             </li>
             <li>
-              <a href="restaurant.html">飲食店の方はこちら</a>
+              <a href="restaurant.php">飲食店の方はこちら</a>
             </li>
           </ul>
         </div>

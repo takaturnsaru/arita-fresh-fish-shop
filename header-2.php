@@ -2,18 +2,20 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title><?php bloginfo("name"); ?></title>
     <meta name="discription" content="昭和35年創業　新潟市北区の町のお魚屋さん">
 
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/work.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/news.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/restaurant.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/contact.css" rel="stylesheet">
     <!-- css -->
 
     <?php
     wp_enqueue_script("jquery");
-    wp_enqueue_script("menu-script", get_template_directory_uri() . "/asset/js/menu.js");
+    wp_enqueue_script("menu-script", get_template_directory_uri() . '/asset/js/menu.js');
+    wp_enqueue_style( "font-awesome", 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_head();
     ?>
   </head>
@@ -24,8 +26,9 @@
         <div class="menu">
             <div class="menu-header">
             <div class="close-btn" id="close-menu">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/close-mark.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
             </div>
+          </div>
             <nav>
               <ul>
                 <li>
@@ -51,16 +54,16 @@
       <header>
         <div class="header-container">
           <div class="header-heading">
-            <p>新潟市北区島見町の小さなお魚屋さん</p>
+          <p><?php echo bloginfo("description"); ?></p>
           </div>
           <div class="header-logo">
-            <a href="index.html"><img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/logo-1.png"></a>
+            <a href="front-page.php"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png"></a>
           </div>
           <div class="header-restaurant">
             <a href="restaurant.html">飲食店の方はこちら</a>
           </div>
           <div class="header-menu">
-            <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/menu-logo.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">
           </div>
         </div>
       </header>

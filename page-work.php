@@ -1,4 +1,4 @@
-<?php get_header("page"); ?>
+<?php get_header("2"); ?>
 
     <main>
       <section>

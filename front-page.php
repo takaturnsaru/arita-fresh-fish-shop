@@ -14,30 +14,12 @@
           <div class="news-contents">
             <?php if ( have_posts() ) : ?>
               <?php while ( have_posts() ) : the_post(); ?>
-                <article class="news">
-                  <div class="news-image">
-                    <a href="<?php the_permalink(); ?>">
-                      <?php if (has_post_thumbnail() ): ?>
-                        <?php the_post_thumbnail( "midium" ); ?>
-                      <?php else: ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png" alt="お知らせ画像">
-                      <?php endif; ?>
-                    </a>
-                  </div>
-                  <div class="news-date">
-                    <time class="news-time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
-                  </div>
-                  <div class="news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-                  <div class="news-content">
-                    <?php the_excerpt(); ?>
-                    <p><a href="<?php the_permalink(); ?>">続きを読む</a></p>
-                  </div>
-                </article>
+                <?php get_template_part("template-parts/loop", "news"); ?>
               <?php endwhile; ?>
             <?php endif; ?>
           </div>
           <div class="news-list-move">
-            <a href="page-news.php">News一覧へ　⇨</a> 
+            <a href="single.php">News一覧へ　⇨</a> 
           </div>
       </section>
 
@@ -113,7 +95,7 @@
             </div>
           </div>
           <div class="work-list-move">
-            <a href="work.php">もっと詳しく　⇨</a>
+            <a href="page-work.php">もっと詳しく　⇨</a>
           </div>
         </div>
       </section>

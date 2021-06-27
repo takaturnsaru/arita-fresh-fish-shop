@@ -7,11 +7,11 @@
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- css -->
     <?php
     wp_enqueue_script("jquery");
     wp_enqueue_script("menu-script", get_template_directory_uri() . '/asset/js/menu.js');
+    wp_enqueue_style( "font-awesome", 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_head();
     ?>
   </head>
@@ -56,7 +56,7 @@
             <p><?php echo bloginfo("description"); ?></p>
           </div>
           <div class="header-restaurant">
-          <a  href="restaurant.html">飲食店の方はこちら</a>
+          <a href="restaurant.html">飲食店の方はこちら</a>
         </div>
           <div class="header-menu">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">
