@@ -1,4 +1,4 @@
-<?php get_header("page"); ?>
+<?php get_header('2'); ?>
 
     <main>
       <div class="news">
@@ -6,138 +6,14 @@
           <h1>News</h1>
         </div>
         <div class="news-contents">
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
-          <div class="news-content">
-            <div class="news-image">
-              <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
-            </div>
-            <div class="news-date">
-              <p>0000年00月00年</p>
-            </div>
-            <div class="news-info">
-              <p>テキスト入りますテキスト入りますテキスト入りますテキスト入りますテキスト入ります</p>
-            </div>
-          </div>
+          <?php if ( have_posts() ) : ?>
+            <?php while ( have_posts() ) : the_post(); ?>
+              <?php get_template_part("template-parts/loop", "news"); ?>
+            <?php endwhile; ?>
+          <?php endif; ?>
+        </div>
+        <div class="news-sidebar">
+          <?php get_sidebar(); ?>
         </div>
         <div class="page-move">
           <div class="previous-page">

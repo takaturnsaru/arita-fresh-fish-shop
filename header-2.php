@@ -7,12 +7,15 @@
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/work.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/news.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/restaurant.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/contact.css" rel="stylesheet">
     <!-- css -->
 
     <?php
     wp_enqueue_script("jquery");
-    wp_enqueue_script("menu-script", get_template_directory_uri() . "/asset/js/menu.js");
+    wp_enqueue_script("menu-script", get_template_directory_uri() . '/asset/js/menu.js');
+    wp_enqueue_style( "font-awesome", 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_head();
     ?>
   </head>
@@ -25,6 +28,7 @@
             <div class="close-btn" id="close-menu">
               <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
             </div>
+          </div>
             <nav>
               <ul>
                 <li>
@@ -50,7 +54,7 @@
       <header>
         <div class="header-container">
           <div class="header-heading">
-            <p>新潟市北区島見町の小さなお魚屋さん</p>
+          <p><?php echo bloginfo("description"); ?></p>
           </div>
           <div class="header-logo">
             <a href="front-page.php"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png"></a>

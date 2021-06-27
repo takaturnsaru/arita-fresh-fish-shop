@@ -7,10 +7,6 @@
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/index.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/news.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/restaurant.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/work.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/contact.css" rel="stylesheet">
     <!-- css -->
     <?php
     wp_enqueue_script("jquery");
@@ -60,7 +56,7 @@
             <p><?php echo bloginfo("description"); ?></p>
           </div>
           <div class="header-restaurant">
-          <a  href="restaurant.html">飲食店の方はこちら</a>
+          <a href="restaurant.html">飲食店の方はこちら</a>
         </div>
           <div class="header-menu">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">
