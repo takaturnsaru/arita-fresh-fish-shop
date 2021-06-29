@@ -28,25 +28,16 @@
               <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
             </div>
         </div>
-          <nav>
-            <ul>
-              <li>
-                <a href="news.html">News</a>
-              </li>
-              <li>
-                <a href="work.html">Work</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/arita_sengyo/?hl=ja">instagram</a>
-              </li>
-              <li>
-                <a href="restaurant.html">飲食店の方はこちら</a>
-              </li>
-            </ul>
-          </nav>
+        <nav>
+              <?php
+                $args = array(
+                  "menu" => "global-navigation",
+                  "menu" => "",
+                  "container" => "false",
+                );
+                wp_nav_menu($args);
+              ?>
+            </nav>
         </div>
       </div>
 
@@ -56,7 +47,7 @@
             <p><?php echo bloginfo("description"); ?></p>
           </div>
           <div class="header-restaurant">
-          <a href="restaurant.html">飲食店の方はこちら</a>
+          <a href="restaurant">飲食店の方はこちら</a>
         </div>
           <div class="header-menu">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/menu-logo.png">

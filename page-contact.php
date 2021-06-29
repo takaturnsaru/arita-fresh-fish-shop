@@ -1,10 +1,10 @@
-<?php get_header("page"); ?>
+<?php get_header("2"); ?>
 
     <main>
       <section>
         <div class="contact-container">
           <div class="contact-heading">
-            <h1>Contact</h1>
+            <h1><?php wp_title(''); ?></h1>
           </div>
           <div class="contact-message">
             <p>魚の注文から、有田鮮魚に関するお問い合わせはこちらのフォームからお願いいたします。</p>
@@ -20,7 +20,7 @@
                 <input type="text" id="e-mail" name="e-mail" placeholder="1234.5678@gmail.com">
               </div>
               <div>
-                <label for="content">お問い合わせ内容</label><br>
+                <label for="content">メッセージ</label><br>
                 <textarea id="contact" name="contact" placeholder="お問い合わせ内容"></textarea>
               </div>
             </div>

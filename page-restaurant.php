@@ -1,9 +1,9 @@
-<?php get_header("page"); ?>
+<?php get_header("2"); ?>
 
     <main>
       <section>
         <div class="restaurant-main-image">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
         </div>
       </section>
 
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="call-out-image">
-          <img src="/Users/saitoutakayuki/practice/arita-fresh-fish-shop/asset/top-images/noimage-760x460.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
         </div>
         <div class="current-status">
           <div class="status">
