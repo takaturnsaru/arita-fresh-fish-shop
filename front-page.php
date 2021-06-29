@@ -12,6 +12,7 @@
             <h1>News</h1>
           </div>
           <div class="news-contents">
+            <?php query_posts("posts_per_page=4"); ?>
             <?php if ( have_posts() ) : ?>
               <?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part("template-parts/loop", "news"); ?>
