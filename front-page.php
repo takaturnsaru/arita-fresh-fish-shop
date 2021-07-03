@@ -57,8 +57,8 @@
           </div>
           <div class="commitments show">
             <div class="commitment">
-              <div class="commitment-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
+            <div class="commitment-circle">
+                <p>その1</p>
               </div>
               <div class="commitment-heading">
                 <h3>移動型鮮魚店</h3>
@@ -70,8 +70,8 @@
               </div>
             </div>
             <div class="commitment">
-              <div class="commitment-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
+              <div class="commitment-circle">
+                <p>その２</p>
               </div>
               <div class="commitment-heading">
                 <h3>対面型販売店</h3>
@@ -83,8 +83,8 @@
               </div>
             </div>
             <div class="commitment">
-              <div class="commitment-logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
+            <div class="commitment-circle">
+                <p>その３</p>
               </div>
               <div class="commitment-heading">
                 <h3>こだわり抜いた新鮮な魚</h3>
