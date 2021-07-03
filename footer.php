@@ -6,16 +6,19 @@
         <div class="footer-nav">
           <ul>
             <li>
-              <a href="news.php">News</a>
+              <a href="category/all/">News</a>
             </li>
             <li>
-              <a href="work.php">Work</a>
+              <a href="work">Work</a>
             </li>
             <li>
-              <a href="contact.php">Contact</a>
+              <a href="contact">Contact</a>
             </li>
             <li>
-              <a href="restaurant.php">飲食店の方はこちら</a>
+              <a href="https://www.instagram.com/arita_sengyo/?hl=ja">Instagram</a>
+            </li>
+            <li>
+              <a href="restaurant">飲食店の方はこちら</a>
             </li>
           </ul>
         </div>

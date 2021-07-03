@@ -1,4 +1,4 @@
-<article class="news">
+<article class="news" id="news-all">
   <div class="news-image">
     <a href="<?php the_permalink(); ?>">
       <?php if (has_post_thumbnail() ): ?>
@@ -8,12 +8,13 @@
       <?php endif; ?>
     </a>
   </div>
-  <div class="news-date">
-    <?php the_category(); ?>
-    <time class="news-time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
+  <div class="news-category">
+    <h3><?php the_category(); ?></h3>
   </div>
-  <div class="news-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+  
   <div class="news-content">
+  <time class="news-time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日'); ?></time>
+  <div class="news-title"><<a href="<?php the_permalink(); ?>"><?php the_title(); ?>></a></div>
     <?php the_excerpt(); ?>
     <p><a href="<?php the_permalink(); ?>">続きを読む</a></p>
   </div>
