@@ -7,7 +7,7 @@
         </div>
       </section>
       <section>
-        <div class="news-container">
+        <div class="news-container show">
           <div class="news-heading">
             <h1>News</h1>
           </div>
@@ -20,8 +20,9 @@
             <?php endif; ?>
           </div>
           <div class="news-list-move">
-            <a href="category/all/">News一覧へ　⇨</a> 
+            <a class ="show" href="category/all/">News一覧へ　⇨</a> 
           </div>
+        </div>
       </section>
 
       <section>
@@ -29,7 +30,7 @@
           <div class="about-image">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/main-imate-shop.jpg">
           </div>
-          <div class="about-discription">
+          <div class="about-discription show">
             <div class="about-heading">
               <h1>about</h1>
             </div>
@@ -48,13 +49,13 @@
           <div class="work-image">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/works-image.png">
           </div>
-          <div class="work-heading">
+          <div class="work-heading show">
             <h1>work</h1>
           </div>
-          <div class="work-title">
+          <div class="work-title show">
             <h2>有田鮮魚のこだわり</h2>
           </div>
-          <div class="commitments">
+          <div class="commitments show">
             <div class="commitment">
               <div class="commitment-logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
@@ -95,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="work-list-move">
+          <div class="work-list-move show">
             <a href="work">もっと詳しく　⇨</a>
           </div>
         </div>
