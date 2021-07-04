@@ -450,7 +450,7 @@ header{
     transform: translateX(0);
   }
   to {
-    transform: translateX(-500%);
+    transform: translateX(-500%);/*枚数分？*/
   }
 }
 
