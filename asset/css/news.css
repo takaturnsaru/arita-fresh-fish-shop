@@ -15,10 +15,14 @@
 
 }
 
+
 .news-heading {
   text-align: center;
   margin: 150px 0  100px;
 }
+
+
+
 /*common*/
 
 /*single*/
@@ -27,6 +31,14 @@
   width: 90%;
   height: auto;
   margin: 0 auto;
+}
+
+.news-single-contents{
+  width: 90%;
+  margin: 150px auto 0;
+  border: 1px solid black;
+  text-align: center;
+
 }
 
 
@@ -88,6 +100,35 @@
   text-align: center;
   margin: 0 auto 150px; 
 }
+
+.cat-item-5{
+  display: flex;
+  border-bottom: 5px solid black;
+  width: 95%;
+  justify-content: space-between;
+  margin: 50px auto;
+  padding:30px 100px 20px;
+}
+
+.cat-item-5 a:hover{
+  opacity: 0.4;
+  transition: 0.5s;
+
+}
+
+
+ul.children {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.children li:hover{ 
+  opacity: 0.4;
+  transition: 0.5s;
+}
+
+
 /*content*/
 
 /*top*/

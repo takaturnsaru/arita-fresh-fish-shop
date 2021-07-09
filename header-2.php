@@ -10,7 +10,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/news.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/restaurant.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/contact.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/sidebar.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/asset/css/contact.css" rel="stylesheet">
     <!-- css -->
 
     <?php
