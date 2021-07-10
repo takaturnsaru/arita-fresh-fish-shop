@@ -23,12 +23,13 @@
 
 
 
+
 /*common*/
 
 /*single*/
 
 .news-single{
-  width: 90%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
@@ -36,10 +37,45 @@
 .news-single-contents{
   width: 90%;
   margin: 150px auto 0;
-  border: 1px solid black;
   text-align: center;
 
 }
+
+.single-news-title{
+  font-size: 2em;
+  margin-bottom: 70px;
+}
+
+.single-news-date{
+  width: 69%;
+  text-align: left;
+  margin: 15px auto 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-news-category{
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.single-news-content{
+  width: 70%;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  margin: 0 auto 70px;
+  text-align: left;
+}
+
+.postlink{
+  font-size: 1.5em;
+  margin: 0 auto 150px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 /*single*/
@@ -50,6 +86,7 @@
   margin: 0 auto;
   width: 80%;
   height: auto;
+  font-size: 1.2em;
 }
 
 .news-genre{
