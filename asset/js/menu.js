@@ -1,12 +1,15 @@
 jQuery(".header-menu").click(function($){
   jQuery("#top-menu").fadeIn();
   jQuery(".header-menu").fadeOut();
+  jQuery(".header-logo").fadeOut();
   jQuery("main").fadeOut();
 });
 
 jQuery("#close-menu").click(function($){
   jQuery("#top-menu").fadeOut();
   jQuery(".header-menu").fadeIn();
+  jQuery(".header-logo").fadeOut();
+  jQuery(".header-logo").fadeIn();
   jQuery("main").fadeIn();
 });
 
