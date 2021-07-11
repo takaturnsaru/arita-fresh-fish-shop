@@ -20,25 +20,25 @@
     <?php wp_body_open(); ?>
       <div class="top-menu-wrapper" id = "top-menu">
         <div class="menu">
-            <div class="menu-header">
+          <div class="menu-header">
             <div class="menu-logo">
               <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png">
             </div>
             <div class="close-btn" id="close-menu">
               <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
             </div>
+          </div>
         </div>
         <nav>
-              <?php
-                $args = array(
-                  "menu" => "global-navigation",
-                  "menu" => "",
-                  "container" => "false",
-                );
-                wp_nav_menu($args);
-              ?>
-            </nav>
-        </div>
+          <?php
+            $args = array(
+              "menu" => "global-navigation",
+              "menu" => "",
+              "container" => "false",
+            );
+            wp_nav_menu($args);
+          ?>
+        </nav>
       </div>
 
       <header>
