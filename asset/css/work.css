@@ -2,6 +2,9 @@ body{
   font-family:"筑紫A丸ゴシック";
   font-weight: bold;
   font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+
 }
 
 a {
@@ -117,7 +120,7 @@ header{
   color: white;
   padding: 20px 15px;
   border-radius: 20px;
-  margin-left: 700px;
+  margin-left: 680px;
 
 }
 
@@ -126,7 +129,7 @@ header{
 }
 
 .header-menu{
-  margin:-30px 0 0 55px;
+  margin:-35px 0 0 23px;
   position: relative;
 
 }
@@ -150,12 +153,12 @@ header{
 /*work-discription*/
 
 
-.work-main-move{
+.work-main-movie{
   width: 100%;
   text-align: center;
 }
 
-.work-main-move img{
+.work-main-movie img{
   border: 1px solid black;
   border-radius: 30px;
   width: 90%;
@@ -164,14 +167,18 @@ header{
 }
 
 .work-container{
-  margin-top: 300px;
+  margin-top: 200px;
   width: 100%;
+}
+
+.work-heading{
+  text-align: center;
 }
 
 
 .work-title{
   text-align: center;
-  margin: 100px 0;
+  margin: 150px 0 70px;
   font-size:20px;
 }
 
@@ -187,9 +194,14 @@ header{
   text-align: center;
 }
 
-.commitment-logo img{
-  width: 150px;
-  height: 150px;
+.commitment-circle{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin: 0 auto 30px;
 }
 
 .commitment-heading{
@@ -200,8 +212,6 @@ header{
 .commitment-content{
   width: 80%;
   margin: 0 auto;
-  letter-spacing: 0.1em;
-  line-height: 1.8em;
 }
 
 /*work-discriptiton*/
@@ -222,6 +232,11 @@ text-align: center;
   margin-top: 200px;
 }
 
+.shop-info{
+  width: 400px;
+
+}
+
 
 .shop-overview{
   margin-top: 100px;
@@ -231,7 +246,10 @@ text-align: center;
   justify-content: space-between;
 }
 
+.main-shop-image{
+  margin: 35px 0;
 
+}
 .main-shop-image img{
   height: 300px;
   width: 500px;
@@ -253,7 +271,8 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
+
 }
 
 .street-market-2{
@@ -263,12 +282,13 @@ text-align: center;
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 
 }
 
 .street-market-overview{
-  width: 300px;
+  width: 400px;
+
 }
 
 .opening-info{
@@ -279,7 +299,7 @@ text-align: center;
   border: 1px solid black;
   border-radius: 30px;
   width: 450px;
-  height: auto;
+  height: 300px;
 }
 
 .street-market-map img{
@@ -296,7 +316,7 @@ text-align: center;
 
 .footer-container{
   width: 100%;
-  height: 300px;
+  height: auto;
   text-align: center;
 }
 
@@ -306,10 +326,14 @@ text-align: center;
 }
 
 .footer-nav ul{
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.footer-nav ul:hover{
+  opacity: 0.5;
 }
 
 .copyright{

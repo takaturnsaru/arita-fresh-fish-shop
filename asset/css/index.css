@@ -2,6 +2,9 @@ body{
   font-family:"筑紫A丸ゴシック";
   font-weight: bold;
   font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+
 }
 
 a {
@@ -42,7 +45,7 @@ h1{
 
 /*menu*/
 .top-menu-wrapper{
-  display: none
+  display: none;
 }
 
 .menu{
@@ -123,7 +126,7 @@ header{
 }
 
 .header-restaurant a{
-  margin-left: 700px;
+  margin-left: 680px;
   background-color: red;
   color: white;
   padding: 20px 15px;
@@ -135,7 +138,7 @@ header{
 }
 
 .header-menu{
-  margin:-33px 0 0 55px;
+  margin:-35px 0 0 23px;
   position: relative;
 }
 
@@ -548,7 +551,7 @@ letter-spacing: 0.2em;
 }
 
 .footer-nav ul{
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
