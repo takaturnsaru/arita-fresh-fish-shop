@@ -20,6 +20,10 @@
   text-align: left;
 }
 
+.contact-form span{
+  color: red;
+}
+
 #name,#e-mail,#contact{
   border: 1px solid black;
   border-radius: 10px;
@@ -50,4 +54,15 @@ label{
   letter-spacing: 0.5em;
   width: 300px;
   font-size: 25px;
+}
+
+.thanks-messages{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.done-message{
+  margin-bottom: 100px;
 }

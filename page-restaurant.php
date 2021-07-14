@@ -2,8 +2,12 @@
 
     <main>
       <section>
-        <div class="restaurant-main-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/noimage-760x460.png">
+        <div class="restaurant-main-images">
+          <h1 class="restaurant-main-heading">飲食店のお客様</h1> 
+          <img class="restaurant-main-image-1"src="<?php echo get_template_directory_uri(); ?>/asset/top-images/sasimi.jpeg">
+          <img class="restaurant-main-image-2" src="<?php echo get_template_directory_uri(); ?>/asset/top-images/yousyoku.jpeg">
+          <img class="restaurant-main-image-3" src="<?php echo get_template_directory_uri(); ?>/asset/top-images/ nituke.jpeg">
+          <img class="restaurant-main-image-4" src="<?php echo get_template_directory_uri(); ?>/asset/top-images/karupacho.jpeg">
         </div>
       </section>
 
@@ -49,13 +53,22 @@
               <h1>実は...</h1>
             </div>
             <div class="current-status-message">
-              <p>みなさん露店市場のイメージは、昔ながらの青果店などが出店していて、お年寄りが買い物にきているというイメージではございませんか？
-                あながち間違ってはいませんが、この現状になっている一つの理由としては、先ほど言ったイメージが強すぎるあまり出店できないのではないかと思わせているのではないかと考えています。
-                でも違うんです‼︎露店市場は色んな店が出店していいんです‼︎
-                そう‼︎自由なんです‼︎
-                たとえばキッチンカーで食べ物を提供することだってできちゃうんです‼︎
-                ただこの情報を知れらなかっただけで、知ると一気にイメージが変わってきませんか？
-                是非、出店したいという方がいらっしゃいましたら一緒に盛り上げていきましょう‼︎</p>
+              <p>みなさん露店市場のイメージというのはどうお持ちでしょうか？昔ながらやっている青果店などが出店し、来客するお客様も、長年通い勤めている方が多いイメージではないでしょうか。実際はその通りで、年々活気が低下してきています。
+                その原因として、みなさんが抱いているイメージが強く、昔からやっているお店しか出店できなかったりするのではないかという考えがあるのではないかと考えています。しかし違うんです。どんなお店も出店して大丈夫なんです。例えば、
+                露店市場でキッチンカーで食べ物を提供するのもできてしまうんです。コレを聞くと一気にイメージが変わってきませんか？ただ今までこう言った情報が知られていなかっただけだと思うので、今後はこういった情報も広め、新たな出店を
+                増やし、露天市場を盛り上げていきたいと思っています。ぜひ、出店したいという方いらっしゃいましたら、私たちと盛り上げていきましょう。</p>
+            </div>
+            <div class="street-market-contacts">
+              <h3>お問い合わせ先</h3>
+              <div class="street-market-various">
+                <p class=street-market-name>亀田露店市場　⇨　</p>
+                <a href="">新潟市江南区役所　産業振興課</a>
+              </div>
+              <div class="street-market-various">
+                <p class="street-market-name">葛塚露店市場<br>松浜露店市場　</p>
+                <p class="yazirusi">⇨</p>
+                <a class="street-market-infomation" href="">　新潟市北区役所　産業振興課</a>
+              </div>
             </div>
           </div>
         </div>

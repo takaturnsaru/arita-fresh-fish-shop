@@ -12,15 +12,15 @@
           <div class="contact-form">
             <form action="" method="POST">
               <div>
-                <label for="name">お名前</label><br>
+                <label for="name">お名前　<span>（必須）</span></label><br>
                 <input type="text" id="name" name="your-name" placeholder="有田　魚助">
               </div>
               <div>
-                <label for="e-mail">メールアドレス</label><br>
+                <label for="e-mail">メールアドレス　<span>（必須）</span></label><br>
                 <input type="text" id="e-mail" name="e-mail" placeholder="1234.5678@gmail.com">
               </div>
               <div>
-                <label for="content">メッセージ</label><br>
+                <label for="content">メッセージ　<span>（必須）</span></label><br>
                 <textarea id="contact" name="contact" placeholder="お問い合わせ内容"></textarea>
               </div>
             </div>

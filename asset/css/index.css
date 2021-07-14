@@ -224,7 +224,7 @@ header{
 
 .news-category{
   margin: 20px auto;
-  letter-spacing: 0.2em;
+  line-height: 1em;
 }
 
 .news-category h3{
@@ -237,8 +237,10 @@ header{
 
 .news-content{
   width: 95%;
+  text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.2em;
+  margin: 0 auto;
 }
 
 .news-list-move{
@@ -357,10 +359,12 @@ header{
 }
 
 .commitment-content{
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   letter-spacing: 0.1em;
   line-height: 1.8em;
+  text-align: left;
+  border: 1px solid black;
 }
 
 .work-list-move{
