@@ -2,7 +2,8 @@ jQuery(".header-menu").click(function($){
   jQuery("#top-menu").fadeIn();
   jQuery(".header-menu").fadeOut();
   jQuery(".header-logo").fadeOut();
-  jQuery("main").fadeOut();
+  jQuery("main").hidden();
+  jQuery("header").hidden();
 });
 
 jQuery("#close-menu").click(function($){

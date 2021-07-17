@@ -27,7 +27,7 @@
         <div class="menu">
           <div class="menu-header">
             <div class="menu-logo">
-              <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png">
+            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/logo-1.png"></a>
             </div>
             <div class="close-btn" id="close-menu">
               <img src="<?php echo get_template_directory_uri(); ?>/asset/top-images/close-mark.png">
