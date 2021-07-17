@@ -579,7 +579,6 @@ letter-spacing: 0.2em;
   /*--menu--*/
 
   .top-menu-wrapper{
-    display: inline-block;
     width: 100%;
     height: 100%;
   }
@@ -736,6 +735,36 @@ letter-spacing: 0.2em;
     font-size: 1rem;
     opacity: 1;
   }
+
+  /**--about--*/
+
+  .about-container{
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+  }
+
+  .about-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .about-discription{
+    opacity: 1;
+    width: 80%;
+    margin: 20% auto 0;
+  }
+
+  .about-heading{
+    margin-bottom: 15%;
+  }
+
+  .about-title{
+    margin-bottom: 10%;
+  }
+
+  /**--about--*/
 
 }
 
