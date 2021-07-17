@@ -57,7 +57,7 @@
           </div>
           <div class="commitments show">
             <div class="commitment">
-            <div class="commitment-circle">
+              <div class="commitment-circle">
                 <p>その1</p>
               </div>
               <div class="commitment-heading">
@@ -83,7 +83,7 @@
               </div>
             </div>
             <div class="commitment">
-            <div class="commitment-circle">
+              <div class="commitment-circle">
                 <p>その３</p>
               </div>
               <div class="commitment-heading">
