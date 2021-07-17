@@ -3,7 +3,6 @@
   height: 95vh;
   margin: 0 auto;
   border-radius: 30px;
-  border: 5px solid black;
   position: relative;
   overflow: hidden;
 }
@@ -110,6 +109,11 @@
   width: 80%;
   font-size: 30px;
   text-align: right;
+}
+
+.contact-btn:hover{
+  opacity: 0.4;
+  transition: 0.3s;
 }
 
 .call-out-container{

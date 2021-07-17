@@ -16,7 +16,9 @@
   <div class="news-content">
     <time class="news-time" datetime="<?php the_time('Y-m-d'); ?>"><a href="<?php the_permalink(); ?>"><?php the_time('Y年m月d日'); ?></a></time>
     <div class="news-title"><a href="<?php the_permalink(); ?>"><<?php the_title(); ?>></a></div>
-    <div class="news-excerpt"><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a></div>
-    <p><a href="<?php the_permalink(); ?>">続きを読む</a></p>
+    <div class="news-excerpt">
+      <a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
+      <a href="<?php the_permalink(); ?>">続きを読む</a>
+    </div>
   </div>
 </article>

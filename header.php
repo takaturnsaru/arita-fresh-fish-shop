@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="discription" content="昭和35年創業　新潟市北区の町のお魚屋さん">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="<?php echo get_template_directory_uri(); ?>/asset/css/index.css" rel="stylesheet">
