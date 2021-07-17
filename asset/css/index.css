@@ -673,6 +673,7 @@ letter-spacing: 0.2em;
 
   .show{
     animation: none;
+    opacity: 1;
   }
 
   .news-heading{
@@ -725,15 +726,14 @@ letter-spacing: 0.2em;
   }
 
   .news-list-move{
-  margin-top: 10%;
-
+    margin-top: 10%;
+    font-size: 1rem;
   }
 
 
 
   .news-list-move a{
     font-size: 1rem;
-    opacity: 1;
   }
 
   /**--about--*/
@@ -765,6 +765,58 @@ letter-spacing: 0.2em;
   }
 
   /**--about--*/
+
+  /*--work--*/
+
+  .work-container{
+    width: 100%;
+    height: auto;
+  }
+
+  .work-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .work-heading{
+    margin-top: 20%;
+  }
+
+  .work-title{
+    font-size: 0.8rem;
+  }
+
+  .commitments{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .commitment{
+    width: 33%;
+  }
+  
+  .commitment-circle{
+    width: 7em;
+    height: 7em;
+    line-height: 7em;
+    margin: 0 auto 15%
+  }
+  
+  .commitment-heading{
+    margin-bottom: 15%;
+    font-size: 0.7rem;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .work-list-move{
+    width: 50%;
+    font-size: 1rem;
+    margin: 20% 0 0 90%;
+  }
 
 }
 
