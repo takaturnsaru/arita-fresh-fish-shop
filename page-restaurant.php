@@ -61,13 +61,14 @@
             <div class="street-market-contacts">
               <h3>お問い合わせ先</h3>
               <div class="street-market-various">
-                <p class=street-market-name>亀田露店市場　⇨　</p>
-                <a href="">新潟市江南区役所　産業振興課</a>
+                <p class=street-market-name>亀田露店市場</p>
+                <p class="yazirusi-1">　⇨　</p>
+                <a class="street-market-infomation-1" href="">新潟市江南区役所　産業振興課</a>
               </div>
               <div class="street-market-various">
-                <p class="street-market-name">葛塚露店市場<br>松浜露店市場　</p>
-                <p class="yazirusi">⇨</p>
-                <a class="street-market-infomation" href="">　新潟市北区役所　産業振興課</a>
+                <p class="street-market-name">葛塚露店市場<br>松浜露店市場</p>
+                <p class="yazirusi-2">　⇨　</p>
+                <a class="street-market-infomation-2" href="">新潟市北区役所　産業振興課</a>
               </div>
             </div>
           </div>
