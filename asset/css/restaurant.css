@@ -188,15 +188,164 @@
   line-height: 80px;
 }
 
-.street-market-infomation{
+.street-market-infomation-2{
   line-height: 80px;
 }
 
-.yazirusi{
+.yazirusi-2{
   line-height: 80px;
 }
 
 .street-market-various a:hover{
   opacity: 0.4;
   transition: 0.3s;
+}
+
+/*--モバイル版--*/
+
+@media (max-width: 600px){
+
+  .restaurant-main-heading {
+    line-height: 13rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 0%;
+    position: static;
+    opacity: 1;
+  }
+  
+
+  .restaurant-main-images{
+    width: 100%;
+    height: 13.5rem;
+    border-radius: 0% 0%;
+  }
+
+  .restaurant-main-images img{
+    width: 100%;
+    height: auto;
+  }
+
+  .restaurant-message-container{
+    width: 100%;
+    height: auto;
+    margin: 15% 0 0 ;
+  }
+  
+  .message-heading{
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .message-heading h1{
+    font-size: 1.5rem;
+  }
+  
+  .restaurant-message{
+    width: 90%;
+    margin: 10% auto 0;
+    font-size: 0.9rem;
+  }
+  
+  .contact-btn{
+    width: 75%;
+    font-size: 1.1rem;
+    margin: 10% 0 0 25%;
+  }
+
+  .call-out-container{
+    width: 100%;
+    height: auto;
+    margin: 15% 0 0;
+  }
+
+  .call-out-heading{
+    width: 95%;
+  }
+
+  .call-out-heading h1{
+    font-size: 1.8rem;
+  }
+
+  .call-out-image {
+    width: 100%;
+    height: auto;
+    margin: 10% auto 0;
+  }
+
+  .call-out-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .current-status{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .status{
+    margin: 0 auto;
+  }
+
+  .current-status-heading{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: 15% auto 0;
+  }
+  
+  .current-status-heading h1{
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin: 0 auto 0
+  }
+
+  .current-status-message{
+    width: 90%;
+    height: auto;
+    font-size: 0.9rem;
+    margin: 10% auto 0;
+  }
+
+  .street-market-contacts{
+    margin: 15% auto 0;
+    padding: 0;
+  }
+
+  .street-market-contacts h3{
+    font-size: 1rem;
+    margin: 10% auto 0;
+  }
+
+  .street-market-various{
+    font-size: 0.8rem;
+    width: 95%;
+    align-items: center;
+  }
+
+  .street-market-name{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+
+  }
+
+  .yazirusi-1{
+    display: flex;
+    align-items: center;
+  }
+
+  .yazirusi-2{
+    display: flex;
+    align-items: center;
+  }
+
+  .street-market-infomation-2{
+    line-height: 0.9rem;
+    display: flex;
+    align-items: center;
+  }
+
 }
