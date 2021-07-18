@@ -66,3 +66,25 @@ label{
 .done-message{
   margin-bottom: 100px;
 }
+
+@media(max-width: 600px){
+
+  .contact-container{
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+  }
+
+  .contact-message{
+    font-size: 0.7rem;
+    width: 90%;
+    margin: 10% auto 0;
+    text-align: left;
+  }
+
+  .contact-form{
+    width: 95%;
+    margin: 15% auto 0;
+  }
+
+}
